@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  text-align: center;
+  line-height: 2;
+  background: url(/istockphoto-453187915-612x612.jpg);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.container button {
+  width: 150px;
+  padding: 5px;
+  border-radius: 3px;
+  background: #ca9a1f;
+  font-weight: bold;
+  color: #003100;
+  border: none;
+}
+
+.container .italic {
+  font-style: italic;
+}
+
+h1 {
+  color: goldenrod;
+}
+/*# sourceMappingURL=10th.css.map */

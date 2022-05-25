@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  line-height: 2;
+  background: url(/istockphoto-453187915-612x612.jpg);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  button {
+    width: 150px;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgb(202, 154, 31);
+    font-weight: bold;
+    color: rgb(0, 49, 0);
+    border: none;
+  }
+  .italic {
+    font-style: italic;
+  }
+}
+
+h1 {
+  color: goldenrod;
+}
